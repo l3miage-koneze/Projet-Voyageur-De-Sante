@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 nov. 2022, 10:56:37
+    Author     : Zeinabou Bissi Kone - Sicong XU
+*/
+
+body{
+    
+    align-self: center;
+    background-image: url(../logos/sunset-1373171__480.jpg);
+}
+
+#corps{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 95%;
+    background-color: whitesmoke;
+    background-image: url(../logos/index.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 20px;
+    border: double darkmagenta 15px;
+    position: relative;
+}
+
+
+input{
+    font-size: 1em;
+    min-width: 20%;
+}
+input[type=submit], input[type=reset] {
+    width: 140px;
+    margin-left:7px;
+    box-shadow:1px 1px 1px darkmagenta;
+    cursor:pointer;
+}
+
+input[type="radio"]{
+    min-width: 0%;
+    width: 5px;
+    cursor: alias;
+}
+
+#title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    font-family: "Georgia, serif";
+    font-size: 55px;
+}
+
+.information{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    position: relative;
+}

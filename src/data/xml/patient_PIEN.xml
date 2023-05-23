@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Authors : Zeinabou Bissi KONE - Sicong XU
+
+-->
+
+<patient xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+         xmlns:act="http://www.ujf-grenoble.fr/l3miage/actes" 
+         xmlns='http://www.ujf-grenoble.fr/l3miage/medical'
+         xsi:schemaLocation='http://www.ujf-grenoble.fr/l3miage/medical ../xsd/patient.xsd'>
+    
+    
+    <nom>Pien</nom>
+    <prénom>Oscare</prénom>
+    <sexe>F</sexe>
+    <naissance>1975-03-25</naissance>
+    <numéro>275037306569202</numéro>
+    <adresse>
+        <étage/>
+        <numéro/>
+        <rue>rue Casimir Brenier</rue>
+        <ville>Grenoble</ville>
+        <codePostal>38000</codePostal>
+    </adresse>
+    <visite date="2015-12-08">
+        <intervenant>
+            <nom/>
+            <prénom/>
+        </intervenant>
+        <acte> 
+            Prélèvement par ponction veineuse directe
+        </acte>
+        <acte>
+            Inection intraveineuse directe isolée.
+        </acte>
+    </visite>
+</patient>

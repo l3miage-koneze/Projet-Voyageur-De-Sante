@@ -1,0 +1,69 @@
+<html xmlns:act="http://www.ujf-grenoble.fr/l3miage/actes" xmlns:cab="http://www.ujf-grenoble.fr/l3miage/medical">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Page de l'infirmier/infirmi&egrave;reFr&eacute;chieSarah</title>
+        <link rel="stylesheet" href="../css/ficheInfirmier.css">
+        <script type="text/javascript">
+                    function openFacture(prenom, nom, actes) {
+                        var width  = 500;
+                        var height = 300;
+                        if(window.innerWidth) {
+                            var left = (window.innerWidth-width)/2;
+                            var top = (window.innerHeight-height)/2;
+                        }
+                        else {
+                            var left = (document.body.clientWidth-width)/2;
+                            var top = (document.body.clientHeight-height)/2;
+                        }
+                        var factureWindow = window.open('','facture','menubar=yes, scrollbars=yes, top='+top+', left='+left+', width='+width+', height='+height+'');
+                        factureText = "Facture pour : " + prenom + " " + nom;
+                        factureWindow.document.write(factureText);
+                    }
+                </script>
+    </head>
+    <body>
+        <div id="pageBody">
+            <h1 class="title">Cabinet m&eacute;dical de Grenoble</h1>
+            <h2 class="sub-title">
+                <i>
+                            Page de l'infirmier/infirmi&egrave;re     
+                        </i>
+            </h2>
+            <hr>
+            <p>
+                                        Bonjour Sarah
+                <br>
+                                        Aujourd'hui, vous avez 1 visite(s) ! 
+                    
+            </p>
+            <hr>
+            <h3>
+                        Patient(s) du jour :
+                    </h3>
+            <div id="patientTable">
+                <div id="patient">
+                    <h2>Patient N&deg;1/1</h2>
+                    <br>
+                </div>
+                <table border="1">
+                    <tr>
+                        <th>Nom</th><th>Pr&eacute;nom</th><th>Adresse</th><th>Soin(s)</th><th>Date</th>
+                    </tr>
+                    <tr>
+                        <td>Al&eacute;cole</td><td>Yvon</td><td> avenue F&eacute;lix Viallet, 
+                   38031 Grenoble</td><td>
+            Injection sous-cutan&eacute;e.
+        
+                            <br>
+                        </td><td>2015-12-08</td>
+                    </tr>
+                </table>
+                <input type="submit" value="Facture" onclick="
+                    openFacture('Al&eacute;cole', 
+                    'Yvon', 
+                    '')
+                ">
+            </div>
+        </div>
+    </body>
+</html>

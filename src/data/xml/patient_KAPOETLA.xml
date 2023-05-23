@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Authors : Zeinabou Bissi KONE - Sicong XU
+
+-->
+
+
+<patient xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+         xmlns:act="http://www.ujf-grenoble.fr/l3miage/actes" 
+         xmlns='http://www.ujf-grenoble.fr/l3miage/medical'
+         xsi:schemaLocation='http://www.ujf-grenoble.fr/l3miage/medical ../xsd/patient.xsd'>
+    <nom>Kapoëtla</nom>
+    <prénom>Xavier</prénom>
+    <sexe>M</sexe>
+    <naissance>2011-08-02</naissance>
+    <numéro>111083306303521</numéro>
+    <adresse>
+        <étage/>
+        <numéro>25</numéro>
+        <rue>rue des Martyrs</rue>
+        <ville>Grenoble</ville>
+        <codePostal>38042</codePostal>
+    </adresse>
+    <visite date="2015-12-08">
+        <intervenant>
+            <nom/>
+            <prénom/>
+        </intervenant>
+        <acte>
+            Injection d'un ou plusieurs allergènes, poursuivant un traitement
+            d'hyposensibilisation spécifique, selon le protocole écrit, y compris la
+            surveillance, la tenue du dossier de soins, la transmission des informations 
+            au médecin prescripteur.
+        </acte>
+    </visite>
+</patient>

@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 nov. 2022, 20:26:33
+    Authors     : Zeinabou Bissi KONE - Sicong XU
+*/
+
+
+body{
+    background-color: lightskyblue;
+    align-self: center;
+    background-image: url(../logos/plan.webp);
+}
+
+#pageBody{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 95%;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 20px;
+    border: double darkblue 15px;
+    position: relative;
+}
+
+#patient{
+    color: black;
+    background-color : lightskyblue;
+    width: 15em;
+    padding : -1em;
+    font-variant : small-caps;
+    font-family: "Georgia, serif";
+    font-size: 0.9em;
+    margin-bottom : 1%;
+}
+
+#patientTable{
+    margin: 1%;
+    width: 95%;
+    min-height: 600px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid darkblue;
+}
+
+th{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    font-family: "Georgia, serif";
+    font-size: 55px;
+}
+
+.sub-title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70em;
+   
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+}

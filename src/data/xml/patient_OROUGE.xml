@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+Authors : Zeinabou Bissi KONE - Sicong XU
+
+-->
+
+<patient xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+         xmlns:act="http://www.ujf-grenoble.fr/l3miage/actes" 
+         xmlns='http://www.ujf-grenoble.fr/l3miage/medical'
+         xsi:schemaLocation='http://www.ujf-grenoble.fr/l3miage/medical ../xsd/patient.xsd'>
+    <nom>Orouge</nom>
+    <prénom>Elvire</prénom>
+    <sexe>F</sexe>
+    <naissance>1982-03-08</naissance>
+    <numéro>282036912305225</numéro>
+    <adresse>
+        <étage/>
+        <numéro/>
+        <rue>Rond-Point de la Croix de Vie</rue>
+        <ville>La Tronche</ville>
+        <codePostal>38700</codePostal>
+    </adresse>
+    <visite date="2015-12-08">
+        <intervenant>
+            <nom/>
+            <prénom/>
+        </intervenant>
+        <acte>
+            Pansement de brûlure étendue ou de plaie chimique ou thermique étendue,
+            sur une surface supérieure à 5% de la surface corporelle.
+        </acte>
+    </visite>
+</patient>

@@ -1,0 +1,95 @@
+<html xmlns:act="http://www.ujf-grenoble.fr/l3miage/actes" xmlns:cab="http://www.ujf-grenoble.fr/l3miage/medical">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Page de l'infirmier/infirmi&egrave;reStick&eacute;Sophie</title>
+        <link rel="stylesheet" href="../css/ficheInfirmier.css">
+        <script type="text/javascript">
+                    function openFacture(prenom, nom, actes) {
+                        var width  = 500;
+                        var height = 300;
+                        if(window.innerWidth) {
+                            var left = (window.innerWidth-width)/2;
+                            var top = (window.innerHeight-height)/2;
+                        }
+                        else {
+                            var left = (document.body.clientWidth-width)/2;
+                            var top = (document.body.clientHeight-height)/2;
+                        }
+                        var factureWindow = window.open('','facture','menubar=yes, scrollbars=yes, top='+top+', left='+left+', width='+width+', height='+height+'');
+                        factureText = "Facture pour : " + prenom + " " + nom;
+                        factureWindow.document.write(factureText);
+                    }
+                </script>
+    </head>
+    <body>
+        <div id="pageBody">
+            <h1 class="title">Cabinet m&eacute;dical de Grenoble</h1>
+            <h2 class="sub-title">
+                <i>
+                            Page de l'infirmier/infirmi&egrave;re     
+                        </i>
+            </h2>
+            <hr>
+            <p>
+                                        Bonjour Sophie
+                <br>
+                                        Aujourd'hui, vous avez 2 visite(s) ! 
+                    
+            </p>
+            <hr>
+            <h3>
+                        Patient(s) du jour :
+                    </h3>
+            <div id="patientTable">
+                <div id="patient">
+                    <h2>Patient N&deg;1/2</h2>
+                    <br>
+                </div>
+                <table border="1">
+                    <tr>
+                        <th>Nom</th><th>Pr&eacute;nom</th><th>Adresse</th><th>Soin(s)</th><th>Date</th>
+                    </tr>
+                    <tr>
+                        <td>Orouge</td><td>Elvire</td><td> Rond-Point de la Croix de Vie, 
+                   38700 La Tronche</td><td>
+            Pansement de br&ucirc;lure &eacute;tendue ou de plaie chimique ou thermique &eacute;tendue,
+            sur une surface sup&eacute;rieure &agrave; 5% de la surface corporelle.
+        
+                            <br>
+                        </td><td>2015-12-08</td>
+                    </tr>
+                </table>
+                <input type="submit" value="Facture" onclick="
+                    openFacture('Orouge', 
+                    'Elvire', 
+                    '')
+                ">
+                <div id="patient">
+                    <h2>Patient N&deg;2/2</h2>
+                    <br>
+                </div>
+                <table border="1">
+                    <tr>
+                        <th>Nom</th><th>Pr&eacute;nom</th><th>Adresse</th><th>Soin(s)</th><th>Date</th>
+                    </tr>
+                    <tr>
+                        <td>Kapo&euml;tla</td><td>Xavier</td><td> rue des Martyrs, 
+                   38042 Grenoble</td><td>
+            Injection d'un ou plusieurs allerg&egrave;nes, poursuivant un traitement
+            d'hyposensibilisation sp&eacute;cifique, selon le protocole &eacute;crit, y compris la
+            surveillance, la tenue du dossier de soins, la transmission des informations 
+            au m&eacute;decin prescripteur.
+        
+                            <br>
+                        </td><td>2015-12-08</td>
+                    </tr>
+                </table>
+                <input type="submit" value="Facture" onclick="
+                    openFacture('Kapo&euml;tla', 
+                    'Xavier', 
+                    '')
+                ">
+            </div>
+        </div>
+    </body>
+</html>
